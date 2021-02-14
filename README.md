@@ -25,7 +25,10 @@ The inner lines within the view inspector let you change the UI element's layout
 
 Fixed: Specify the width/height of the element.
 
-Match Constraints: Allow the element to occupy all available space to satisfy the constraint. (Note that this is not the same as the match_parent value for width or height, which sets the element to occupy all available space of the parent view. You shouldn't use match_parent for any view in a ConstraintLayout.) In the XML file, the value 0dp appears in the layout_width or layout_height attribute for Match Constraints.
+Match Constraints: <img width="37" alt="Screenshot 2021-02-14 at 5 21 56 PM" src="https://user-images.githubusercontent.com/8524951/107875977-2d37d080-6ee9-11eb-998f-2eeb785f2f04.png">
+
+Allow the element to occupy all available space to satisfy the constraint. (Note that this is not the same as the match_parent value for width or height, which sets the element to occupy all available space of the parent view. You shouldn't use match_parent for any view in a ConstraintLayout.) In the XML file, the value 0dp appears in the layout_width or layout_height attribute for Match Constraints.
+
 
 Wrap Content: Expand the element as needed to fit its content.
  
@@ -51,4 +54,6 @@ Refer to this -> https://developer.android.com/codelabs/constraint-layout#10
 You've already learned how to center a single UI element. In this exercise you will learn how to center multiple elements at once using a chain. A chain is a group of elements that are linked to each other with bi-directional position constraints.
 When you create a chain, you can position all of the elements as a group, and center all of your chained elements as if they were a single element. -> https://developer.android.com/codelabs/constraint-layout#11
 13. There is also a button in the toolbar which helps to delete all the constraints in 1 go.
+
+
 
