@@ -78,5 +78,6 @@ When you create a chain, you can position all of the elements as a group, and ce
 13. There is also a button in the toolbar which helps to delete all the constraints in 1 go.<img width="39" alt="Screenshot 2021-02-14 at 5 30 08 PM" src="https://user-images.githubusercontent.com/8524951/107876169-53aa3b80-6eea-11eb-84ab-96a10fad89d8.png">
 
 
-
+14. TODO: Use guideline -> You can add a vertical or horizontal guideline to which you can constrain views, and the guideline will be invisible to app users. You can position the guideline within the layout based on either dp units or percent, relative to the layout's edge.
+15. Similar to a guideline, a barrier is an invisible line that you can constrain views to. Except a barrier does not define its own position; instead, the barrier position moves based on the position of views contained within it. This is useful when you want to constrain a view to the a set of views rather than to one specific view.
 
