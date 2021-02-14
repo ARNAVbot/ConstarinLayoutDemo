@@ -37,7 +37,7 @@ Wrap Content: <img width="28" alt="Screenshot 2021-02-14 at 5 24 31 PM" src="htt
 Expand the element as needed to fit its content.
  
 5.By using a baseline constraint, you can vertically align elements that have text, such as a TextView, EditText, or Button, so that the text baselines are aligned. Use baseline constraints to align elements that use different text sizes. Baseline constraints are also useful for aligning the text baselines of elements of different sizes.
-Refer doc for the above thing -> https://developer.android.com/codelabs/constraint-layout#7
+Refer [this](https://developer.android.com/codelabs/constraint-layout#7) doc for the above thing 
  
 6. to expand an element horizontally and vertically using the Pack  tool, <img width="41" alt="Screenshot 2021-02-14 at 5 25 25 PM" src="https://user-images.githubusercontent.com/8524951/107876081-a8998200-6ee9-11eb-9c6d-3cc2196ecfe5.png">
 and how to use the Infer Constraints  tool <img width="37" alt="Screenshot 2021-02-14 at 5 25 30 PM" src="https://user-images.githubusercontent.com/8524951/107876091-bfd86f80-6ee9-11eb-8966-db3e485a3da7.png">
@@ -49,18 +49,19 @@ and how to use the Infer Constraints  tool <img width="37" alt="Screenshot 2021-
 The Infer Constraints tool calculates and sets constraints for all of the elements in a layout, rather than just the selected element. It bases its calculations on inferred relationships between the elements.
 The Autoconnect  tool <img width="35" alt="Screenshot 2021-02-14 at 5 26 48 PM" src="https://user-images.githubusercontent.com/8524951/107876101-d5e63000-6ee9-11eb-90cb-63d453f33776.png">
 creates constraint connections for a selected element to the element's parent.
-9. Refer to this -> https://developer.android.com/codelabs/constraint-layout#8 for above
-10. You can quickly resize elements by aspect ratio if at least one of the element's dimensions is set to match constraints. -> https://developer.android.com/codelabs/constraint-layout#9
+9. Refer to [this](https://developer.android.com/codelabs/constraint-layout#8) for above
+10. You can quickly resize elements by aspect ratio if at least one of the element's dimensions is set to match constraints. Check [this](https://developer.android.com/codelabs/constraint-layout#9)
 11.  Use barriers to align elements that dynamically vary in size
 Barriers allow you to specify a constraint based on multiple UI elements. You'll want to use barriers any time that multiple elements could dynamically change their size based on user input or language.
  
 A constraint to a barrier is just like a constraint to another element. However, users don't see barriers, and barriers don't add a level to the app's view hierarchy, which means they don't affect performance.
-Refer to this -> https://developer.android.com/codelabs/constraint-layout#10
+Refer to [this](https://developer.android.com/codelabs/constraint-layout#10)
  
 12. Use chains to position multiple elements
 You've already learned how to center a single UI element. In this exercise you will learn how to center multiple elements at once using a chain. A chain is a group of elements that are linked to each other with bi-directional position constraints.
-When you create a chain, you can position all of the elements as a group, and center all of your chained elements as if they were a single element. -> https://developer.android.com/codelabs/constraint-layout#11
-13. There is also a button in the toolbar which helps to delete all the constraints in 1 go.
+When you create a chain, you can position all of the elements as a group, and center all of your chained elements as if they were a single element. Refer [this](https://developer.android.com/codelabs/constraint-layout#11)
+13. There is also a button in the toolbar which helps to delete all the constraints in 1 go.<img width="39" alt="Screenshot 2021-02-14 at 5 30 08 PM" src="https://user-images.githubusercontent.com/8524951/107876169-53aa3b80-6eea-11eb-84ab-96a10fad89d8.png">
+
 
 
 
