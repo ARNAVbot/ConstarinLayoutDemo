@@ -1,5 +1,20 @@
 # ConstarinLayoutDemo
-Demo app to show various utilities of Constraint Layout
+Demo app to show various utilities of Constraint Layout.
+To add depedency of constraint layout in your project , do the following:
+1. Ensure you have the maven.google.com repository declared in your top-level build.gradle file:
+```
+repositories {
+    google()
+}
+```
+2. Add the library as a dependency in the module-level build.gradle file, as shown in the following example. Note that the latest version might be different than what is shown in the example:
+```
+dependencies {
+    implementation "androidx.constraintlayout:constraintlayout:2.0.4"
+}
+```
+3. In the toolbar or sync notification, click Sync Project with Gradle Files.
+
 
 This repo will basically help in getting familiar with some of the basic and dialy use concepts of Constraint Layout that developers generally use in their day-to-day life.
 
