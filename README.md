@@ -89,3 +89,16 @@ When you create a chain, you can position all of the elements as a group, and ce
 ## What's next ?
 1. Motion Layout -> https://github.com/android/views-widgets-samples/tree/main/ConstraintLayoutExamples
 
+
+## Imp articles
+1. https://www.youtube.com/watch?v=rzmB3UxxhaA
+2. https://proandroiddev.com/constraintlayout-vs-other-layouts-a-battle-towards-performance-part-1-14d8116e876e
+3. https://proandroiddev.com/constraintlayout-vs-other-layouts-a-battle-towards-performance-part-2-21d6b5a6054c
+4. https://nik-arora8059.medium.com/a-battle-towards-performance-constraintlayout-vs-other-layouts-part-3-d7646a849b4e
+5. https://android.jlelse.eu/constraint-layout-performance-870e5f238100
+6. https://medium.com/@sasanksunkavalli/android-constraintlayout-layout-constraintdimensionratio-33bd2293f34c
+7. https://medium.com/@britt.barak/from-view-to-pixel-5a9b7470f3fd
+8. https://medium.com/@britt.barak/rendering-phase-by-phase-7ea8c9885eb2
+9. https://medium.com/@britt.barak/measure-layout-draw-483c6a4d2fab
+10. https://medium.com/@britt.barak/layout-once-layout-twice-sold-aef156ff16a4
+11. https://medium.com/@britt.barak/to-constraint-or-not-to-constraint-8030e607a2aa
