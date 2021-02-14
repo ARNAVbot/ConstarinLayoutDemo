@@ -23,25 +23,32 @@ After adding two opposing horizontal constraints—a left and a right constraint
 4.Change the element's layout width and height
 The inner lines within the view inspector let you change the UI element's layout_width and layout_height values relative to constraints. Clicking an inner line cycles through the following options for vertical and horizontal constraints:
 
-Fixed: Specify the width/height of the element.
+Fixed: <img width="24" alt="Screenshot 2021-02-14 at 5 23 34 PM" src="https://user-images.githubusercontent.com/8524951/107876031-6c662180-6ee9-11eb-905d-91cbf4de245b.png">
+
+Specify the width/height of the element.
 
 Match Constraints: <img width="37" alt="Screenshot 2021-02-14 at 5 21 56 PM" src="https://user-images.githubusercontent.com/8524951/107875977-2d37d080-6ee9-11eb-998f-2eeb785f2f04.png">
 
 Allow the element to occupy all available space to satisfy the constraint. (Note that this is not the same as the match_parent value for width or height, which sets the element to occupy all available space of the parent view. You shouldn't use match_parent for any view in a ConstraintLayout.) In the XML file, the value 0dp appears in the layout_width or layout_height attribute for Match Constraints.
 
 
-Wrap Content: Expand the element as needed to fit its content.
+Wrap Content: <img width="28" alt="Screenshot 2021-02-14 at 5 24 31 PM" src="https://user-images.githubusercontent.com/8524951/107876054-84d63c00-6ee9-11eb-870d-1327fbc31bc7.png">
+
+Expand the element as needed to fit its content.
  
 5.By using a baseline constraint, you can vertically align elements that have text, such as a TextView, EditText, or Button, so that the text baselines are aligned. Use baseline constraints to align elements that use different text sizes. Baseline constraints are also useful for aligning the text baselines of elements of different sizes.
 Refer doc for the above thing -> https://developer.android.com/codelabs/constraint-layout#7
  
-6. to expand an element horizontally and vertically using the Pack  tool, and how to use the Infer Constraints  tool. Both tools are in the toolbar at the top of the Layout Editor.
+6. to expand an element horizontally and vertically using the Pack  tool, <img width="41" alt="Screenshot 2021-02-14 at 5 25 25 PM" src="https://user-images.githubusercontent.com/8524951/107876081-a8998200-6ee9-11eb-9c6d-3cc2196ecfe5.png">
+and how to use the Infer Constraints  tool <img width="37" alt="Screenshot 2021-02-14 at 5 25 30 PM" src="https://user-images.githubusercontent.com/8524951/107876091-bfd86f80-6ee9-11eb-8966-db3e485a3da7.png">
+. Both tools are in the toolbar at the top of the Layout Editor.
  
 7. The Infer Constraints tool infers, or figures out, the constraints you need to match a rough layout of elements. It works by taking into account the positions and sizes of the elements. Drag elements to the layout in the positions you want them, and use the Infer Constraints tool to automatically create the constraint connections.
  
 8. What's the difference between Inference and Autoconnect?
 The Infer Constraints tool calculates and sets constraints for all of the elements in a layout, rather than just the selected element. It bases its calculations on inferred relationships between the elements.
-The Autoconnect  tool creates constraint connections for a selected element to the element's parent.
+The Autoconnect  tool <img width="35" alt="Screenshot 2021-02-14 at 5 26 48 PM" src="https://user-images.githubusercontent.com/8524951/107876101-d5e63000-6ee9-11eb-90cb-63d453f33776.png">
+creates constraint connections for a selected element to the element's parent.
 9. Refer to this -> https://developer.android.com/codelabs/constraint-layout#8 for above
 10. You can quickly resize elements by aspect ratio if at least one of the element's dimensions is set to match constraints. -> https://developer.android.com/codelabs/constraint-layout#9
 11.  Use barriers to align elements that dynamically vary in size
