@@ -24,7 +24,7 @@ Following topics will be covered in this repo:
 3. Changing elements layout_width and layout_height
 4. Pack tool and Infer Consteaints tool
 5. Barriers
-6. Chains
+6. Chains (https://developer.android.com/training/constraint-layout/index.html#constrain-chain)
 
 Let's get started
 1. Autoconnect tool
